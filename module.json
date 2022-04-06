@@ -1,0 +1,100 @@
+{
+	"name": "deadlands-noir",
+	"title": "Deadlands Noir",
+	"description": "A module of imported book data: Edges, Hindrances, Gear, etc.",
+	"manifest": "https://raw.githubusercontent.com/jondoud/deadlands-noir/master/module.json",
+  	"download": "https://github.com/jondoud/deadlands-noir/releases/download/v0.1/module.zip",
+  	"version": "0.1",
+  	"url": "https://github.com/jondoud/deadlands-noir",
+	"author": "Jon Doud",
+	"minimumCoreVersion": "9",
+	"compatibleCoreVersion":"9",
+	"packs": [
+				{
+  					"name": "dln-archetypes",
+  					"label": "Deadlands Noir Archetypes",
+  					"path": "packs/dln-archetypes.db",
+  					"entity": "Actor",
+  					"system": "swade",
+  					"module": "deadlands-noir"
+				}, 
+				{
+  					"name": "dln-npcs",
+  					"label": "Deadlands Noir NPCs",
+  					"path": "packs/dln-npcs.db",
+  					"entity": "Actor",
+  					"system": "swade",
+  					"module": "deadlands-noir"
+				}, 
+				{
+  					"name": "dln-bestiary",
+  					"label": "Deadlands Noir Bestiary",
+  					"path": "packs/dln-core-bestiary.db",
+  					"entity": "Actor",
+  					"system": "swade",
+  					"module": "deadlands-noir"
+				}, 
+				{
+  					"name": "dln-skills",
+  					"label": "Deadlands Noir Skills",
+  					"path": "packs/dln-skills.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "deadlands-noir"
+				},
+				{
+  					"name": "dln-powers",
+  					"label": "Deadlands Noir Powers",
+  					"path": "packs/dln-powers.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "deadlands-noir"
+				},
+				{
+  					"name": "dln-edges",
+  					"label": "Deadlands Noir Edges",
+  					"path": "packs/dln-edges.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "deadlands-noir"
+				},
+				{
+  					"name": "dln-hindrances",
+  					"label": "Deadlands Noir Hindrances",
+  					"path": "packs/dln-hindrances.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "deadlands-noir"
+				},
+				{
+  					"name": "dln-vehicles",
+  					"label": "Deadlands Noir Vehicles",
+  					"path": "packs/dln-vehicles.db",
+  					"entity": "Actor",
+  					"system": "swade",
+  					"module": "deadlands-noir"
+				}, 
+				{
+  					"name": "dln-equipment",
+  					"label": "Deadlands Noir Equipment",
+  					"path": "packs/dln-equipment.db",
+  					"entity": "Item",
+  					"system": "swade",
+  					"module": "deadlands-noir"
+				}
+	], 
+	"systems": [
+        "swade"
+    ],
+    "dependencies": [
+        {
+            "type": "module",
+            "name": "compendium-folders",
+            "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+        },
+        {
+            "name": "swade",
+            "type": "system"
+        }
+    ]
+  }
