@@ -19,29 +19,13 @@
   					"module": "deadlands-noir"
 				}, 
 				{
-  					"name": "dln-npcs",
-  					"label": "Deadlands Noir NPCs",
-  					"path": "packs/dln-npcs.db",
+  					"name": "dln-rogues",
+  					"label": "Deadlands Noir Rogue's Gallery",
+  					"path": "packs/dln-rogues.db",
   					"entity": "Actor",
   					"system": "swade",
   					"module": "deadlands-noir"
 				}, 
-				{
-  					"name": "dln-bestiary",
-  					"label": "Deadlands Noir Bestiary",
-  					"path": "packs/dln-core-bestiary.db",
-  					"entity": "Actor",
-  					"system": "swade",
-  					"module": "deadlands-noir"
-				}, 
-				{
-  					"name": "dln-skills",
-  					"label": "Deadlands Noir Skills",
-  					"path": "packs/dln-skills.db",
-  					"entity": "Item",
-  					"system": "swade",
-  					"module": "deadlands-noir"
-				},
 				{
   					"name": "dln-powers",
   					"label": "Deadlands Noir Powers",
